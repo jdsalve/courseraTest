@@ -1,0 +1,23 @@
+p
+{
+    color: rgb(55, 196, 206);
+    width: 250px;
+    text-align: justify;
+    border: dotted   green 3px;
+    padding: 20px;
+    float: left;
+    margin: 9px;
+    background-color: rgb(235, 213, 255);
+}
+p:hover
+{
+    color: black;
+    border: solid red 3px;
+    background-color: bisque;
+}
+p:active, :focus
+{
+    color: blue;
+    border: double black 3px;
+    background-color: aquamarine;
+}
