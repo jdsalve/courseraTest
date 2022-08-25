@@ -1,23 +1,56 @@
 p
 {
     color: rgb(55, 196, 206);
-    width: 250px;
+    width: 275px;
+    height: 275px;
     text-align: justify;
     border: dotted   green 3px;
     padding: 20px;
     float: left;
     margin: 9px;
     background-color: rgb(235, 213, 255);
+    opacity: .5;
 }
 p:hover
 {
     color: black;
     border: solid red 3px;
     background-color: bisque;
+    opacity: .6;
 }
 p:active, :focus
 {
     color: blue;
     border: double black 3px;
     background-color: aquamarine;
+    opacity: 1;
+}
+
+#myImg
+{
+    width: 275px;
+    height: 275px;
+    margin: 9px;
+}
+
+.myLink
+{
+    text-align: center;
+    width: 275px;
+    height: 275px;
+    margin: 20px;
+    border: solid;
+    padding: 9px;
+    float: left;
+    
+}
+.myLink:hover
+{
+    background-color: lightcoral;
+}
+
+#myImg:hover
+{
+    width: 400px;
+    height: 400px;
 }
